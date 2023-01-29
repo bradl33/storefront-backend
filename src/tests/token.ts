@@ -1,0 +1,2 @@
+export const tokenize =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiamFuZV9kb2UiLCJpYXQiOjE2NzQ5NzE4MzB9.ec-aB979XgLVkSm_GFho8rIKZ8TTlo71d56j3kViOFs';

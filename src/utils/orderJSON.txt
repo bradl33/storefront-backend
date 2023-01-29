@@ -1,0 +1,31 @@
+Create order:
+{
+    "orderItems": [
+        {
+            "product_id": 1,
+            "quantity": 16
+        }
+    ]
+}
+
+Return user active orders:
+    http://localhost:3000/orders/active/2
+
+Update order status:
+{
+    "orderToUpdate": {
+        "id": 1,
+        "status": "completed"
+    }
+}
+
+Return user completed orders:
+    http://localhost:3000/orders/completed/2
+
+
+Return user all orders:
+    http://localhost:3000/orders/all/2
+
+//Perform delete after testing entire application
+Delete order by id:
+    http://localhost:3000/orders/delete/3

@@ -1,0 +1,19 @@
+Create product:
+{
+    "name": "Samsung A13",
+    "price": 20000,
+    "category": "phones"
+}
+
+Return product with id:
+    http://localhost:3000/products/1
+
+Return all products:
+    http://localhost:3000/products/
+
+Return category products:
+    http://localhost:3000/products/category/phones
+
+//Perform delete after testing entire application
+Delete product with id:
+    http://localhost:3000/products/delete/3

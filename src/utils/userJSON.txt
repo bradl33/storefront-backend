@@ -1,0 +1,23 @@
+Create user:
+{
+    "firstname": "Jane",
+    "lastname": "Doe OrderSpec",
+    "username": "jane_doe",
+    "password": "pass_jane"
+}
+
+User login:
+{
+    "username": "jane_doe",
+    "password": "pass_jane"
+}
+
+Return user with id:
+    http://localhost:3000/users/1
+
+Return all users:
+    http://localhost:3000/users/
+
+//Perform delete after testing entire application
+Delete user with id:
+    http://localhost:3000/users/delete/1
