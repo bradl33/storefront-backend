@@ -62,16 +62,17 @@ Database: Port 5432
 ---
 
 ## Running the Application ##
-In your package.json file, change ENV=test to ENV=dev in the "test": script line
-Run "db-migrate up" without quotes to create tables
-Run "yarn watch" (without quotes) to run the server on port 3000
+
+1. In your package.json file, change ENV=test to ENV=dev in the "test": script line
+2. Run "db-migrate up" without quotes to create tables
+3. Run "yarn watch" (without quotes) to run the server on port 3000
     You get the message "Found 0 errors. Watching for file changes." on successful run
-Visit http://localhost:3000/ to confirm from the browser that the app is up and running
+4. Visit http://localhost:3000/ to confirm from the browser that the app is up and running
 
 Visit below routes as outlined to carry out respective operations:
 For test data, navigate to the utils folder and copy paste json lines as needed into Postman.
 
-# User-related actions
+## User-related actions
 1. Create user: 
         /users/create [POST]
 2. User login: 
@@ -84,7 +85,7 @@ For test data, navigate to the utils folder and copy paste json lines as needed 
 5. Delete user with id: 
         /users/delete/:id [DELETE]
 
-# Product-related actions
+## Product-related actions
 1. Create product: 
         /products/create [POST]
 2. Return product with id: 
@@ -96,7 +97,7 @@ For test data, navigate to the utils folder and copy paste json lines as needed 
 5. Delete product with id: 
         /products/delete/:id [DELETE]
 
-# Order-related actions
+## Order-related actions
 1. Create order: 
         /orders/create [GET]
 2. Return active orders with user id:
