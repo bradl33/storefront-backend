@@ -70,6 +70,7 @@ Database: Port 5432
 4. Visit http://localhost:3000/ to confirm from the browser that the app is up and running
 
 Visit below routes as outlined to carry out respective operations:
+
 For test data, navigate to the utils folder and copy paste json lines as needed into Postman.
 
 ## User-related actions
@@ -77,6 +78,7 @@ For test data, navigate to the utils folder and copy paste json lines as needed 
         /users/create [POST]
 2. User login: 
         /users/login [POST]
+    
     Copy returned token and paste in Postman > Authorization > Bearer Token
 3. Return user with id: 
         /users/:userId [GET]
